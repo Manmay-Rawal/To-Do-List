@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ToDoList.css">
+</head>
+
+<body>
+    <div class="manu" style="background-image: url(51M21B6UamS._AC_UF894\,1000_QL80_.jpg); ">
+        <ul>
+            <li><a href="#home" id="Home">Home</a></li>
+            <li><a href="#history" id="History">ToDoHistory</a></li>
+            <li><a id="ToDoList-BTN">To-Do-List</a></li>
+        </ul>
+    </div>
+
+    <div id="center-Home">
+        <h1>Manmay To-Do-List</h1>
+        <p>The Manmay To-Do List application is a user-friendly task management tool that enables users to efficiently organize and track their tasks. With a clean and intuitive interface, users can easily add new tasks through a text area, which automatically saves their entries to local storage, ensuring persistence across sessions. Each task can be edited, allowing for updates as needed, and users can mark tasks as completed with a dedicated button.
+
+            A notable feature is the ability to delete tasks, but this is restricted to those that are marked as completed, ensuring that uncompleted tasks remain accessible for future action. The application leverages local storage to preserve data, allowing users to refresh or close the browser without losing their tasks. Overall, the Manmay To-Do List offers a practical and engaging solution for individuals seeking to manage their tasks effectively while enjoying a simple and interactive user experience.</p>
+    </div>
+
+    <div id="Note-Box" style=" display: none; color:rgb(113, 113, 173) ;">
+
+        <div class="container">
+            <div class="sticky-wall">
+                <div class="image-container">
+                    <img src="Free Texture Friday – Stained Paper Sheets.jpg" alt="Image Problem"
+                        style=" height: 500px;">
+                    <textarea id="taskInput" placeholder="Add your notes..." class="transparent-input"></textarea>
+                </div>
+                <button id="addTaskButton">Add task</button>
+            </div>
+        </div>
+    </div>
+
+
+<!-- To do List History -->
+    <div id="ToDo-History" style="display:none">
+        <ul id="taskList"></ul>
+    </div>
+
+
+
+
+    <script src="TodDoList.js"></script>
+</body>
+
+</html>
